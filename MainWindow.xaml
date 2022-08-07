@@ -1,0 +1,35 @@
+﻿<Window x:Class="SendEmail.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SendEmail"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Email adress who send message"/>
+            <TextBox Text="That you need write" Name="SendEmail"/>
+            <TextBlock/>
+            <TextBlock/>
+            <TextBlock/>
+            <TextBlock Text="Write password for email who send message// you need password for external applications. google it if you don`t know"/>
+            <TextBox Text="That you need write" Name="GetPassword"/>
+            <TextBlock/>
+            <TextBlock/>
+            <TextBlock/>
+            <TextBlock Text="Email adress who Get message"/>
+            <TextBox Text="That you need write" Name="GetEmail"/>
+            <TextBlock/>
+            <TextBlock/>
+            <TextBlock/>
+            <TextBlock Text="Write Email TEXT"/>
+            <TextBox Text="Write a message lol" Name="Textes"/>
+            <TextBlock/>
+            <TextBlock/>
+            <TextBlock/>
+            <TextBlock/>
+            <Button Content="Send Email" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="60" Click="Send_Email"/>
+        </StackPanel>
+    </Grid>
+</Window>
